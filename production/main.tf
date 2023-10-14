@@ -1,7 +1,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "rovacc-tfstate-production"
+    bucket = "rovacc-infra-tfstate-production"
     prefix = "terraform/state"
   }
 }
